@@ -4,15 +4,15 @@ I'd like to present my latest tool, the GIF-O-MATIC!
 
 "get the look of .GIF, without the hassle!"
 
--WHY?!
+- WHY?!
 
 Okay I admit it, I love 90's web design aesthetics... I grew up with dial up modems, limited hard drive and internet, and playing video games with shitty textures, for a PC with 128mb of VRAM to display them on.
 There's a certain beauty to me about the limitations of the hardware unwittingly making a whole new aesthetic. The dither noise, low resolution and limited colour space all become a sort of canvas for the modern day painter.
-Now looking back (on a 4k 180hz HDR monitor, nursing a dram of whiskey) I feel a charm and nostalgia for those gritty, simpler graphics. in many ways, the texture of a .GIF is to Millenials what tape hiss and vinyl crackle is to Gen X'ers 
+Now looking back (on a 4k 180hz HDR monitor, nursing a dram of whiskey) I feel a charm and nostalgia for those gritty, simpler graphics. in many ways, the texture of a .GIF is to Millenials what tape hiss and vinyl crackle is to Gen X'ers. 
 it scratches the same part of my brain that enjoys 12bit/22.50khz audio files, I shouldn't like something so inherently inferior, but I do!
 anyway, long story short- enjoy GIF-O-MATIC!
 
--HOW TO USE:
+- HOW TO USE:
 
 Take a video file of your choice, drag and drop it onto one of the .BAT files.
 "GIF-O-MATIC FRAMES.bat" Video file will automatically be converted into a stream of frames in .PNG format at source framerate and 800px width, a new folder will be created in the original files address with the frames inside.
@@ -42,13 +42,13 @@ You could instead copy ffmpeg.exe and ffprobe.exe into the same folder as gif_lo
 
 Once ffmpeg -version works, drag a clip onto the .bat of choice, and wait. 
 
--NOTES:
+- NOTES:
 I think you'll be happy not only with the resulting look, but with the speed and efficiency of this process.
 A word of warning, A short video around 100mb, can easily become a 650+mb file at source resolution/fps, so consult the edit page if you want less extreme file sizes.
 I find using "native" output resolution with a width of 480px and a frame rate of 15 yields a crunchy authentic looking image that could pass for a .GIF
 but is also very efficient in file size. my test video went from 91 to 35 megabytes after conversion.
 
--GIF-O-MATIC FRAMES.BAT Default Settings
+- GIF-O-MATIC FRAMES.BAT Default Settings
 rem ---------------- SETTINGS (edit these) ----------------
 rem  Effective GIF resolution (pixel width). Pick a number that divides
 rem  your video width evenly for clean square pixels, e.g. 960 for 1920,
@@ -62,7 +62,7 @@ rem  How the picture is shrunk before dithering: bicubic (soft) | neighbor (hars
 set DOWNSCALE=bicubic
 rem --------------------------------------------------------
 
--GIF-O-MATIC CLIP.bat Default Settings
+- GIF-O-MATIC CLIP.bat Default Settings
 rem ---------------- SETTINGS (edit these) ----------------
 
 rem  WIDTH = the effective GIF resolution (pixel width of the dither grid).
@@ -101,7 +101,7 @@ set DOWNSCALE=bicubic
 rem --------------------------------------------------------
 
 
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\REFERENCES:\\\\\\\\\\\\\\\\\\
+- REFERENCES:
 https://pixelsynth.art/algorithms/floyd-steinberg
 https://www.gyan.dev/ffmpeg/builds/
 Thanks to Claude AI for helping me build the tool
