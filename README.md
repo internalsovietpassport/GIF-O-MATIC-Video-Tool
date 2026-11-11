@@ -48,58 +48,6 @@ A word of warning, A short video around 100mb, can easily become a 650+mb file a
 I find using "native" output resolution with a width of 480px and a frame rate of 15 yields a crunchy authentic looking image that could pass for a .GIF
 but is also very efficient in file size. my test video went from 91 to 35 megabytes after conversion.
 
-- GIF-O-MATIC FRAMES.BAT Default Settings
-rem ---------------- SETTINGS (edit these) ----------------
-rem  Effective GIF resolution (pixel width). Pick a number that divides
-rem  your video width evenly for clean square pixels, e.g. 960 for 1920,
-rem  640 for 1920, 480 for 1920.
-set WIDTH=480
-rem  Dither: floyd_steinberg | burkes | sierra2 | sierra2_4a | heckbert | atkinson | bayer | none
-set DITHER=floyd_steinberg
-rem  Frame rate. Leave empty to keep the original, or e.g. 12 or 15 for a GIF-like frame rate.
-set FPS=
-rem  How the picture is shrunk before dithering: bicubic (soft) | neighbor (harsh) | area
-set DOWNSCALE=bicubic
-rem --------------------------------------------------------
-
-- GIF-O-MATIC CLIP.bat Default Settings
-rem ---------------- SETTINGS (edit these) ----------------
-
-rem  WIDTH = the effective GIF resolution (pixel width of the dither grid).
-rem  Smaller = chunkier pixels.  e.g. 320, 480, 640, 800
-set WIDTH=480
-
-rem  OUT_WIDTH = pixel width of the finished file.
-rem    0       same size as your original video
-rem    auto    closest clean multiple of WIDTH to the original size (square, even pixels)
-rem    native  same as WIDTH (small file, scale it up in your editor with no smoothing)
-rem    1280    or any number you like
-set OUT_WIDTH=native
-
-rem  FPS = output frame rate. Leave empty to keep the original.
-rem  GIF-like speeds: 10, 12, 15
-set FPS=15
-
-rem  FORMAT = avi | mp4 | png
-rem    avi  lossless, keeps every dither pixel exact (big files)
-rem    mp4  small and plays anywhere, but lossy: dither colours drift a little
-rem    png  lossless image sequence in a folder
-set FORMAT=avi
-
-rem  AVI_CODEC = utvideo | rawvideo   (only used when FORMAT=avi)
-rem    utvideo   lossless and much smaller. Plays in VLC / mpv; editors
-rem              such as Premiere and Resolve need the Ut Video codec installed.
-rem    rawvideo  uncompressed. Opens almost everywhere but files are huge.
-set AVI_CODEC=utvideo
-
-rem  Dither: floyd_steinberg | burkes | sierra2 | sierra2_4a | sierra3 | heckbert | atkinson | bayer | none
-set DITHER=floyd_steinberg
-
-rem  DOWNSCALE = how the picture is shrunk before dithering: bicubic (soft) | neighbor (harsh) | area
-set DOWNSCALE=bicubic
-
-rem --------------------------------------------------------
-
 
 - REFERENCES:
 https://pixelsynth.art/algorithms/floyd-steinberg
