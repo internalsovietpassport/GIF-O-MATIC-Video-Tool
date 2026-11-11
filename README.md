@@ -50,7 +50,8 @@ but is also very efficient in file size. my test video went from 91 to 35 megaby
 
 
 - REFERENCES:
-- https://pixelsynth.art/algorithms/floyd-steinberg
+https://pixelsynth.art/algorithms/floyd-steinberg
 
-- https://www.gyan.dev/ffmpeg/builds/
+https://www.gyan.dev/ffmpeg/builds/
+
 Thanks to Claude AI for helping me build the tool
