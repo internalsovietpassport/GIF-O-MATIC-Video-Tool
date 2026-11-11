@@ -4,7 +4,7 @@ I'd like to present my latest tool, the GIF-O-MATIC!
 
 "get the look of .GIF, without the hassle!"
 
-- WHY?!
+-WHY?!
 
 Okay I admit it, I love 90's web design aesthetics... I grew up with dial up modems, limited hard drive and internet, and playing video games with shitty textures, for a PC with 128mb of VRAM to display them on.
 There's a certain beauty to me about the limitations of the hardware unwittingly making a whole new aesthetic. The dither noise, low resolution and limited colour space all become a sort of canvas for the modern day painter.
@@ -18,9 +18,9 @@ Take a video file of your choice, drag and drop it onto one of the .BAT files.
 "GIF-O-MATIC FRAMES.bat" Video file will automatically be converted into a stream of frames in .PNG format at source framerate and 800px width, a new folder will be created in the original files address with the frames inside.
 "GIF-O-MATIC CLIP.bat" Video file will be automatically converted into a .AVI video file, and placed in the source files address. Settings for input / output resolution and frame rate can be found by editing the .bat file.
 
-- "Sign me up!"
+-"Sign me up!"
 
--IF YOU GET AN ERROR:
+- IF YOU GET AN ERROR:
 
 When you type ffmpeg in a command window, Windows looks for ffmpeg.exe in a list of folders called the PATH. If ffmpeg isn’t in one of them, you get “‘ffmpeg’ is not recognized as an internal or external command”, and the .bat stops. Having ffmpeg downloaded isn’t enough on its own.
 
