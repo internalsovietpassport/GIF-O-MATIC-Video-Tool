@@ -44,7 +44,7 @@ Once ffmpeg -version works, drag a clip onto the .bat of choice, and wait.
 
 - NOTES:
 I think you'll be happy not only with the resulting look, but with the speed and efficiency of this process.
-A word of warning, A short video around 100mb, can easily become a 650+mb file at source resolution/fps, so consult the edit page if you want less extreme file sizes.
+A word of warning, A short video around 100mb, can easily become a 650+mb file at source resolution/fps, so consult the .bat file if you want smaller file sizes.
 I find using "native" output resolution with a width of 480px and a frame rate of 15 yields a crunchy authentic looking image that could pass for a .GIF
 but is also very efficient in file size. my test video went from 91 to 35 megabytes after conversion.
 
