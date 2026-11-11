@@ -9,7 +9,7 @@ I'd like to present my latest tool, the GIF-O-MATIC!
 Okay I admit it, I love 90's web design aesthetics... I grew up with dial up modems, limited hard drive and internet, and playing video games with shitty textures, for a PC with 128mb of VRAM to display them on.
 There's a certain beauty to me about the limitations of the hardware unwittingly making a whole new aesthetic. The dither noise, low resolution and limited colour space all become a sort of canvas for the modern day painter.
 Now looking back (on a 4k 180hz HDR monitor, nursing a dram of whiskey) I feel a charm and nostalgia for those gritty, simpler graphics. in many ways, the texture of a .GIF is to Millenials what tape hiss and vinyl crackle is to Gen X'ers. 
-it scratches the same part of my brain that enjoys 12bit/22.50khz audio files, I shouldn't like something so inherently inferior, but I do!
+it scratches the same part of my brain that enjoys 12bit/22.050khz audio files, I shouldn't like something so inherently inferior, but I do!
 anyway, long story short- enjoy GIF-O-MATIC!
 
 - HOW TO USE:
