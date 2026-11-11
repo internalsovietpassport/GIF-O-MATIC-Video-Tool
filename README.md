@@ -18,7 +18,7 @@ Take a video file of your choice, drag and drop it onto one of the .BAT files.
 "GIF-O-MATIC FRAMES.bat" Video file will automatically be converted into a stream of frames in .PNG format at source framerate and 800px width, a new folder will be created in the original files address with the frames inside.
 "GIF-O-MATIC CLIP.bat" Video file will be automatically converted into a .AVI video file, and placed in the source files address. Settings for input / output resolution and frame rate can be found by editing the .bat file.
 
--"Sign me up!"
+-"So Simple!"
 
 - IF YOU GET AN ERROR:
 
